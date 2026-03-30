@@ -1,23 +1,27 @@
-# Motor Insurance Portfolio Simulation & Risk Analytics
+# Motor Insurance Portfolio Simulation & Risk Analytics 🚘✨
 
-## Overview
-This project simulates a large-scale motor insurance portfolio of 1,000,000 policies and evaluates written premium, claim emergence, profitability, earned premium recognition, and remaining exposure.
+A portfolio analytics project in Python that simulates a **1,000,000 policy motor insurance book** and evaluates how it performs across premium, claims, profitability, and exposure.
 
-## Tools Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Google Colab
+## ✨ Overview
+This project helps answer one core question:
 
-## Key Analyses
+**Is the portfolio sustainably priced under the current premium and claims assumptions?**
+
+## 📊 Analysis Included
 - policy portfolio simulation
 - tenure mix validation
 - claims generation
-- loss ratio and underwriting margin analysis
+- loss ratio & underwriting margin
+- claim frequency analysis
 - sale-month cohort analysis
-- earned vs unearned premium analysis
-- pricing adequacy scenario analysis
+- earned vs unearned premium
+- pricing adequacy scenario
 
-## Key Insight
-The simulated portfolio is structurally unprofitable under the current premium assumptions, highlighting pricing inadequacy in the simplified scenario.
+## 🧰 Built With
+`Python` `Pandas` `NumPy` `Matplotlib` `Google Colab`
+
+## 💡 Key Takeaway
+The portfolio turns out to be **structurally loss-making** under the current assumptions, showing that the flat premium setup is not sufficient relative to the simulated claims burden.
+
+## ⚠️ Note
+This is a simplified analytical model, not a real-world actuarial pricing model.
